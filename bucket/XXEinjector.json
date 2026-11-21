@@ -1,12 +1,12 @@
 {
-    "version": "2024-12-01T15.25.27",
+    "version": "2026-11-20T22.08.44",
     "description": "Tool for automatic exploitation of XXE vulnerability using direct and different out of band methods.(Scoop bucket by arch3rpro)",
     "homepage": "https://github.com/enjoiz/XXEinjector",
     "notes": "XXEinjector使用ruby编写，安装前请先安装ruby，并设置环境变量",
     "license": "Unkown",
     "suggest": "ruby",
     "url": "https://github.com/enjoiz/XXEinjector/archive/refs/heads/master.zip",
-    "hash": "308e740b8597147382ac553b7bcf18117f200f4f4ba4c149e1b6cbcd9d01e755",
+    "hash": "0d122bc8075b2d869dbbc78fab7ec8630d4fccc768861d69ede6a18dbb071ee7",
     "pre_install": [
         "Set-Content \"$dir\\XXEinjector.bat\" '@pushd %~dp0",
         "ruby -W0 \"XXEinjector.rb\" %*",
